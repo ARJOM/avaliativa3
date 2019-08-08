@@ -2,38 +2,45 @@
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="estilo.css" />
     <title>Questão 1</title>
 </head>
 <body>
-    <div id="cadastro">
-        <p>Cadastro</p>
+    <div class= "wrapper" id="cadastro">
+        <h3>Cadastro</h3>
         <div>
-            <label for="nome">Nome:</label>
+            <label for="nome">Nome:</label></br>
             <input type="text" id="nome" placeholder="Ex: João Ferreira" >
         </div>
         <div>
-            <label for="email">Email:</label>
+            <label for="foto">Link da foto:</label></br>
+            <input type="text" id="foto" placeholder="Ex: https://www.pinterest.com/pin/848224911038722211/" >
+        </div>
+        <div>
+            <label for="email">Email:</label></br>
             <input type="email" id="email" placeholder="seuemail@email.com">
         </div>
         <div>
-            <label for="senha">Senha:</label>
-            <input type="password" id="senha" placeholder="*********">
+            <label for="repo">Repositório:</label></br>
+            <input type="text" id="repo" placeholder="Ex: github.com/joao/atividade" >
         </div>
         <div>
-            <label for="data de nascimento">Email:</label>
-            <input type="date" id="nascimento">
+            <label for="latitude">Latitude:</label></br>
+            <input type="text" id="latitude"/>
         </div>
         <div>
-            <label for="genero">Gênero:</label>
-            <input type="radio" name="genero" value="m" checked> Masculino
-            <input type="radio" name="genero" value="f"> Feminino
+            <label for="longitude">Longitude:</label></br>
+            <input type="text" id="longitude">
         </div>
+        <div>
+            <label for="linguagens">Linguagens preferidas:</label></br>
+            <input type="text" id="linguagens" placeholder="Ex: Python, C, JavaScript" >
+        </div>
+
         <div>
             <button onclick="cadastro()">Cadastrar</button>
-        </div>
-    </div>
-    <div>
-        <button onclick="window.location.href = 'login.html'">Login</button>        
+            <button onclick="window.location.href = 'exibe.html'">Exibir</button> 
+        </div>    
     </div>
     <script src="main.js"></script>
 </body>
