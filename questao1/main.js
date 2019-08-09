@@ -50,7 +50,6 @@ function exibe(){
         var resultado = "";
         for (var i=0; i<cadastrados.length; i++){
             var usuario = cadastrados[i];
-            var link = document.createElement("a");
             resultado += "<div>"
             resultado += "<p>"+usuario.nome+"</p>"
             resultado += "</div"
