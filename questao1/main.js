@@ -52,6 +52,7 @@ function exibe(){
             var usuario = cadastrados[i];
             resultado += "<div>"
             resultado += "<p>"+usuario.nome+"</p>"
+            resultado += "<a href='detalha("+usuario+")'>"+usuario.email+"</a>";
             resultado += "</div"
         }
         paragrafo.innerHTML = resultado;
@@ -61,8 +62,8 @@ function exibe(){
     }
 }
 
-function detalha(email){
-    window.alert()
+function detalha(user){
+    window.alert(use.email);
 }
 
 //Classes
