@@ -50,11 +50,35 @@ function exibe(){
         var resultado = "";
         for (var i=0; i<cadastrados.length; i++){
             var usuario = cadastrados[i];
-            resultado += "<div>"
-            resultado += "<p>"+usuario.nome+"</p>"
-            resultado += "<a href='detalha("+usuario+")'>"+usuario.email+"</a>";
-            resultado += "</div"
+            var link = "<a id = "+usuario.email+" href='detalhes.html'>"+usuario.email+"</a>"
+            resultado += "<div><p>"+usuario.nome+" "+link+"</p></div>"
         }
+        paragrafo.innerHTML = resultado;
+        for (var i=0; i<cadastrados.length; i++){
+            var usuario = cadastrados[i];
+            console.log(usuario.nome);
+            document.getElementById(usuario.email).addEventListener("click", setObjectLocalStorage("usuario", usuario));
+        }    
+    } else {
+        window.alert("API Web Storage não encontrada")
+    }
+}
+
+function detalhes(){
+    if (typeof(Storage) !== "undefined"){
+        var paragrafo = document.getElementById("detalhes");
+        var resultado = "";
+        var usuario = getObjectLocalStorage("usuario");
+        resultado+= "<img src='"+usuario.foto+"'>"
+        resultado+= "<p>Nome: "+usuario.nome+"</p>"
+        resultado+= "<p>E-mail: "+usuario.email+"</p>"
+        resultado+= "<a href="+usuario.repo+">Visite o repositório</a>"
+        resultado+= "<p>Linguagens favoritas:</p>"
+        resultado+= "<ul>"
+        for (var i=0; i<usuario.linguagens.length; i++){
+            resultado += "<li>"+usuario.linguagens[i]+"</li>";
+        }
+        resultado+= "</ul>"
         paragrafo.innerHTML = resultado;
 
     } else {
@@ -62,9 +86,6 @@ function exibe(){
     }
 }
 
-function detalha(user){
-    window.alert(use.email);
-}
 
 //Classes
 
