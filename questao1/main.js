@@ -30,17 +30,23 @@ function cadastro() {
             window.alert("email já cadastrado");
         }
 
-        document.getElementById("nome").value = "";
-        document.getElementById("foto").value = "";
-        document.getElementById("email").value = "";
-        document.getElementById("repo").value = "";
-        document.getElementById("latitude").value = "";
-        document.getElementById("longitude").value = "";
-        document.getElementById("linguagens").value = "";
+        limpar();
+
+        
 
     } else {
         window.alert("API Web Storage não encontrada");
     }
+}
+
+function limpar(){
+    document.getElementById("nome").value = "";
+    document.getElementById("foto").value = "";
+    document.getElementById("email").value = "";
+    document.getElementById("repo").value = "";
+    document.getElementById("latitude").value = "";
+    document.getElementById("longitude").value = "";
+    document.getElementById("linguagens").value = "";
 }
 
 function exibe(){
@@ -50,18 +56,23 @@ function exibe(){
         var resultado = "";
         for (var i=0; i<cadastrados.length; i++){
             var usuario = cadastrados[i];
-            var link = "<a id = "+usuario.email+" href='detalhes.html'>"+usuario.email+"</a>"
+            var link = "<a id = "+usuario.email+" onclick="+detalha(usuario.email)+" href='detalhes.html'>"+usuario.email+"</a>"
             resultado += "<div><p>"+usuario.nome+" "+link+"</p></div>"
         }
-        paragrafo.innerHTML = resultado;
-        for (var i=0; i<cadastrados.length; i++){
-            var usuario = cadastrados[i];
-            console.log(usuario.nome);
-            document.getElementById(usuario.email).addEventListener("click", setObjectLocalStorage("usuario", usuario));
-        }    
+        paragrafo.innerHTML = resultado;  
     } else {
         window.alert("API Web Storage não encontrada")
     }
+}
+
+function detalha(email){
+    if (isRegistred(email)){
+        var usuario = buscaUsuario(email);
+        setObjectLocalStorage("usuario", usuario);
+    }
+    else{
+        window.alert("Usuário não registrado")
+    }    
 }
 
 function detalhes(){
@@ -119,5 +130,55 @@ function validaInsert(email, cadastrados){
             return false;
         }
     }
+    return true;
+}
+
+function buscaUsuario(email){
+    cadastrados = getObjectLocalStorage("cadastrados");
+    for (var i=0; i<cadastrados.length; i++){
+        var usuario = cadastrados[i];
+        if (usuario.email == email){
+            return usuario;
+        }
+    }
+    return null;  
+}
+
+function isRegistred(email){
+    cadastrados = getObjectLocalStorage("cadastrados");
+    for (var i=0; i<cadastrados.length; i++){
+        var usuario = cadastrados[i];
+        if (usuario.email == email){
+            return true;
+        }
+    }
+    return false; 
+}
+
+
+
+function isEquivalent(a, b) {
+    // Create arrays of property names
+    var aProps = Object.getOwnPropertyNames(a);
+    var bProps = Object.getOwnPropertyNames(b);
+
+    // If number of properties is different,
+    // objects are not equivalent
+    if (aProps.length != bProps.length) {
+        return false;
+    }
+
+    for (var i = 0; i < aProps.length; i++) {
+        var propName = aProps[i];
+
+        // If values of same property are not equal,
+        // objects are not equivalent
+        if (a[propName] !== b[propName]) {
+            return false;
+        }
+    }
+
+    // If we made it this far, objects
+    // are considered equivalent
     return true;
 }
