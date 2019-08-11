@@ -19,9 +19,11 @@ function cadastro() {
         var linguagens = document.getElementById("linguagens").value;
         var linguas = linguagens.split(", ");
 
-        var usuario = new Usuario(nome, foto, email, repo, localizacao, linguas);
-
         cadastrados = getObjectLocalStorage("cadastrados");
+
+        var usuario = new Usuario( cadastrados.length, nome, foto, email, repo, localizacao, linguas);
+
+        
         if (validaInsert(email, cadastrados)){
             cadastrados.push(usuario);
             setObjectLocalStorage("cadastrados", cadastrados);
@@ -56,7 +58,7 @@ function exibe(){
         var resultado = "";
         for (var i=0; i<cadastrados.length; i++){
             var usuario = cadastrados[i];
-            var link = "<a id = "+usuario.email+" onclick="+detalha(usuario.email)+" href='detalhes.html'>"+usuario.email+"</a>"
+            var link = "<a id = "+usuario.email+" onclick=\"+detalha('"+usuario.email+"')\" href='detalhes.html'>"+usuario.email+"</a>"
             resultado += "<div><p>"+usuario.nome+" "+link+"</p></div>"
         }
         paragrafo.innerHTML = resultado;  
@@ -100,7 +102,8 @@ function detalhes(){
 
 //Classes
 
-function Usuario(nome, foto, email, repo, localizacao, linguagens){
+function Usuario(index, nome, foto, email, repo, localizacao, linguagens){
+    this.index = index;
     this.nome = nome;
     this.foto = foto;
     this.email = email;
