@@ -15,27 +15,24 @@ function cadastro() {
         var repo = document.getElementById("repo").value;
         var latitude = document.getElementById("latitude").value;
         var longitude = document.getElementById("longitude").value;
-        var localizacao = [latitude, longitude];
+        var localizacao = [parseFloat(latitude), parseFloat(longitude)];
         var linguagens = document.getElementById("linguagens").value;
         var linguas = linguagens.split(", ");
 
-        cadastrados = getObjectLocalStorage("cadastrados");
-
-        var usuario = new Usuario( cadastrados.length, nome, foto, email, repo, localizacao, linguas);
-
-        
-        if (validaInsert(email, cadastrados)){
-            cadastrados.push(usuario);
-            setObjectLocalStorage("cadastrados", cadastrados);
+        if (validaLocalizacao(localizacao)){
+            if (validaInsert(email)){
+                cadastrados = getObjectLocalStorage("cadastrados");
+                var usuario = new Usuario( cadastrados.length, nome, foto, email, repo, localizacao, linguas);
+                cadastrados.push(usuario);
+                setObjectLocalStorage("cadastrados", cadastrados);
+            } else{
+                window.alert("email já cadastrado");
+            }
+        } else{
+            window.alert("já existe um usuário cadastrado com essa localização")
         }
-        else{
-            window.alert("email já cadastrado");
-        }
-
         limpar();
-
         
-
     } else {
         window.alert("API Web Storage não encontrada");
     }
@@ -55,12 +52,13 @@ function exibe(){
     if (typeof(Storage) !== "undefined"){
         cadastrados = getObjectLocalStorage("cadastrados");
         var paragrafo = document.getElementById("exibe");
-        var resultado = "";
+        var resultado = "<ul>";
         for (var i=0; i<cadastrados.length; i++){
             var usuario = cadastrados[i];
-            var link = "<a id = "+usuario.email+" onclick=\"+detalha('"+usuario.email+"')\" href='detalhes.html'>"+usuario.email+"</a>"
-            resultado += "<div><p>"+usuario.nome+" "+link+"</p></div>"
+            var link = "<a id = "+usuario.email+" onclick=\"+detalha('"+usuario.email+"')\" href='detalhes.html'>"+usuario.nome+"</a>"
+            resultado += "<li><p>"+link+" "+usuario.email+"</p></li>"
         }
+        resultado+="</ul>"
         paragrafo.innerHTML = resultado;  
     } else {
         window.alert("API Web Storage não encontrada")
@@ -91,7 +89,8 @@ function detalhes(){
         for (var i=0; i<usuario.linguagens.length; i++){
             resultado += "<li>"+usuario.linguagens[i]+"</li>";
         }
-        resultado+= "</ul>"
+        resultado+= "</ul>";
+        resultado+= "<a href='https://maps.google.com/?q="+usuario.localizacao[0]+","+usuario.localizacao[1]+"'>Localiza</a>";
         paragrafo.innerHTML = resultado;
 
     } else {
@@ -126,7 +125,8 @@ function getObjectLocalStorage(key){
     return value && JSON.parse(value);
 }
 
-function validaInsert(email, cadastrados){
+function validaInsert(email){
+    var cadastrados = getObjectLocalStorage("cadastrados");
     for (var i = 0; i<cadastrados.length; i++){
         var usuario = cadastrados[i];
         if (usuario.email == email){
@@ -137,7 +137,7 @@ function validaInsert(email, cadastrados){
 }
 
 function buscaUsuario(email){
-    cadastrados = getObjectLocalStorage("cadastrados");
+    var cadastrados = getObjectLocalStorage("cadastrados");
     for (var i=0; i<cadastrados.length; i++){
         var usuario = cadastrados[i];
         if (usuario.email == email){
@@ -148,7 +148,7 @@ function buscaUsuario(email){
 }
 
 function isRegistred(email){
-    cadastrados = getObjectLocalStorage("cadastrados");
+    var cadastrados = getObjectLocalStorage("cadastrados");
     for (var i=0; i<cadastrados.length; i++){
         var usuario = cadastrados[i];
         if (usuario.email == email){
@@ -158,7 +158,16 @@ function isRegistred(email){
     return false; 
 }
 
-
+function validaLocalizacao(localizacao){
+    var cadastrados = getObjectLocalStorage("cadastrados");
+    for (var i =0; i<cadastrados.length; i++){
+        var usuario = cadastrados[i];
+        if (isEquivalent(localizacao, usuario.localizacao)){
+            return false;
+        }
+    }
+    return true;
+}
 
 function isEquivalent(a, b) {
     // Create arrays of property names
