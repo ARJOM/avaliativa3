@@ -1,0 +1,729 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"
+      xmlns:media="http://search.yahoo.com/mrss/"
+      xmlns:dc="http://purl.org/dc/elements/1.1/"
+      xmlns:dcterms="http://purl.org/dc/terms/">
+   <id>http://www.bbc.com/portuguese/topicos/brasil/index.xml</id>
+   <title>BBCBrasil.com | Brasil</title>
+   <updated>2016-05-24T06:02:15-03:00</updated>
+   <link rel="self"
+         href="http://www.bbc.com/portuguese/topicos/brasil/index.xml"/>
+   <author>
+      <name>BBC Brasil</name>
+      <email>portuguese@bbc.co.uk</email>
+      <uri>http://www.bbcbrasil.com</uri>
+   </author>
+   <generator>http://www.bbcbrasil.com</generator>
+   <category xml:lang="pt-BR" term="portuguese" label="portuguese"/>
+   <category xml:lang="pt-BR" term="topicos" label="Tópicos"/>
+   <logo>http://www.bbc.co.uk/portuguese/images/gel/rss_logo.gif</logo>
+   <rights>Copyright British Broadcasting Corporation </rights>
+   <entry>
+      <id>tag:www.bbcbrasil.com,2016-05-11:/portuguese/brasil/2016/05/160511_treinador_natacao_rio_2016_fora_fd</id>
+      <dc:identifier>/portuguese/brasil/2016/05/160511_treinador_natacao_rio_2016_fora_fd</dc:identifier>
+      <updated>2016-05-17T13:30:39-03:00</updated>
+      <published>2016-05-11T10:04:44-03:00</published>
+      <category xml:lang="pt-BR" term="portuguese" label="portuguese"/>
+      <category xml:lang="pt-BR" term="brasil" label="Brasil"/>
+      <title xml:lang="pt-BR">Brasil atende a pedido da Austrália e exclui treinador de natação da Rio 2016</title>
+      <summary xml:lang="pt-BR">Impedido de trabalhar com menores de 16 anos em seu país por causa de alegações de abuso sexual, Scott Volkers era cotado para integrar seleção brasileira.</summary>
+      <link rel="alternate"
+            type="text/html"
+            href="http://www.bbc.com/portuguese/brasil/2016/05/160511_treinador_natacao_rio_2016_fora_fd"
+            title="story">
+         <media:content>
+            <media:thumbnail url="http://a.files.bbci.co.uk/worldservice/live/assets/images/2016/05/10/160510151604_volkers_abre_144x81_divulgacao_nocredit.jpg"
+                             width="144"
+                             height="81">
+               <img alt=""
+                    width="144"
+                    height="81"
+                    src="http://a.files.bbci.co.uk/worldservice/live/assets/images/2016/05/10/160510151604_volkers_abre_144x81_divulgacao_nocredit.jpg"/>
+            </media:thumbnail>
+         </media:content>
+      </link>
+   </entry>
+   <entry>
+      <id>tag:www.bbcbrasil.com,2016-05-02:/portuguese/brasil/2016/05/160517_desvinculacao_saude_ab</id>
+      <dc:identifier>/portuguese/brasil/2016/05/160517_desvinculacao_saude_ab</dc:identifier>
+      <updated>2016-05-17T05:38:57-03:00</updated>
+      <published>2016-05-02T17:25:25-03:00</published>
+      <category xml:lang="pt-BR" term="portuguese" label="portuguese"/>
+      <category xml:lang="pt-BR" term="brasil" label="Brasil"/>
+      <title xml:lang="pt-BR">Sucateamento do SUS? A ameaça de corte no gasto obrigatório com saúde</title>
+      <summary xml:lang="pt-BR">Proposta que avança no Senado quer permitir que Estados e municípios possam usar livremente 25% do valor obrigatório que têm de gastar em saúde; PMDB estuda acabar de vez com gasto mínimo em saúde e educação.  </summary>
+      <link rel="alternate"
+            type="text/html"
+            href="http://www.bbc.com/portuguese/brasil/2016/05/160517_desvinculacao_saude_ab"
+            title="story">
+         <media:content>
+            <media:thumbnail url="http://a.files.bbci.co.uk/worldservice/live/assets/images/2016/05/16/160516034025_sp_montagem_144x81_ag.brasil_nocredit.jpg"
+                             width="144"
+                             height="81">
+               <img alt="(Fotos: Ag. Brasil)"
+                    width="144"
+                    height="81"
+                    src="http://a.files.bbci.co.uk/worldservice/live/assets/images/2016/05/16/160516034025_sp_montagem_144x81_ag.brasil_nocredit.jpg"/>
+            </media:thumbnail>
+         </media:content>
+      </link>
+      <link rel="related"
+            type="text/html"
+            href="http://www.bbc.com/portuguese/brasil/2016/05/160512_entrevista_ricardo_paes_de_barros_dg_rb"
+            title="story">
+         <dc:title>Governo deve gastar ainda mais em programas sociais em tempos de crise, diz economista que inspirou Temer</dc:title>
+         <media:content>
+            <media:thumbnail url="http://a.files.bbci.co.uk/worldservice/live/assets/images/2016/05/16/160516034025_sp_montagem_144x81_ag.brasil_nocredit.jpg"
+                             width="144"
+                             height="81">
+               <img alt="(Fotos: Ag. Brasil)"
+                    width="144"
+                    height="81"
+                    src="http://a.files.bbci.co.uk/worldservice/live/assets/images/2016/05/16/160516034025_sp_montagem_144x81_ag.brasil_nocredit.jpg"/>
+            </media:thumbnail>
+         </media:content>
+      </link>
+   </entry>
+   <entry>
+      <id>tag:www.bbcbrasil.com,2016-05-16:/portuguese/brasil/2016/05/160516_dilma_temer_lisboa_mfl</id>
+      <dc:identifier>/portuguese/brasil/2016/05/160516_dilma_temer_lisboa_mfl</dc:identifier>
+      <updated>2016-05-16T20:08:54-03:00</updated>
+      <published>2016-05-16T17:35:46-03:00</published>
+      <category xml:lang="pt-BR" term="portuguese" label="portuguese"/>
+      <category xml:lang="pt-BR" term="brasil" label="Brasil"/>
+      <title xml:lang="pt-BR">Aliados de Dilma e Temer travam 'guerra de versões' em Portugal</title>
+      <summary xml:lang="pt-BR">Parlamentares favoráveis e contrários ao impeachment aproveitam encontro em Lisboa para tentar influenciar opinião da comunidade internacional.</summary>
+      <link rel="alternate"
+            type="text/html"
+            href="http://www.bbc.com/portuguese/brasil/2016/05/160516_dilma_temer_lisboa_mfl"
+            title="story">
+         <media:content>
+            <media:thumbnail url="http://a.files.bbci.co.uk/worldservice/live/assets/images/2016/05/16/160516211904_debates_lisboa_144x81_mamedefilho_nocredit.jpg"
+                             width="144"
+                             height="81">
+               <img alt=""
+                    width="144"
+                    height="81"
+                    src="http://a.files.bbci.co.uk/worldservice/live/assets/images/2016/05/16/160516211904_debates_lisboa_144x81_mamedefilho_nocredit.jpg"/>
+            </media:thumbnail>
+         </media:content>
+      </link>
+   </entry>
+   <entry>
+      <id>tag:www.bbcbrasil.com,2016-05-16:/portuguese/internacional/2016/05/160516_nasa_aquecimento_np</id>
+      <dc:identifier>/portuguese/internacional/2016/05/160516_nasa_aquecimento_np</dc:identifier>
+      <updated>2016-05-16T17:54:09-03:00</updated>
+      <published>2016-05-16T12:39:30-03:00</published>
+      <category xml:lang="pt-BR" term="portuguese" label="portuguese"/>
+      <category xml:lang="pt-BR" term="international" label="Internacional"/>
+      <title xml:lang="pt-BR">Temperaturas globais bateram recorde em abril, mostra mapa da Nasa</title>
+      <summary xml:lang="pt-BR">Dados do INMET apontam que Brasil seguiu padrão global de aumentos de temperatura no mês passado.</summary>
+      <link rel="alternate"
+            type="text/html"
+            href="http://www.bbc.com/portuguese/internacional/2016/05/160516_nasa_aquecimento_np"
+            title="story">
+         <media:content>
+            <media:thumbnail url="http://a.files.bbci.co.uk/worldservice/live/assets/images/2016/05/16/160516154229_nasa_mapa_144x81_nasa_nocredit.jpg"
+                             width="144"
+                             height="81">
+               <img alt=""
+                    width="144"
+                    height="81"
+                    src="http://a.files.bbci.co.uk/worldservice/live/assets/images/2016/05/16/160516154229_nasa_mapa_144x81_nasa_nocredit.jpg"/>
+            </media:thumbnail>
+         </media:content>
+      </link>
+   </entry>
+   <entry>
+      <id>tag:www.bbcbrasil.com,2016-05-16:/portuguese/brasil/2016/05/160516_serra_itamaraty_fs</id>
+      <dc:identifier>/portuguese/brasil/2016/05/160516_serra_itamaraty_fs</dc:identifier>
+      <updated>2016-05-16T17:30:33-03:00</updated>
+      <published>2016-05-16T16:10:11-03:00</published>
+      <category xml:lang="pt-BR" term="portuguese" label="portuguese"/>
+      <category xml:lang="pt-BR" term="brasil" label="Brasil"/>
+      <title xml:lang="pt-BR">Respostas 'duras' de Serra a críticas de países vizinhos dividem Itamaraty</title>
+      <summary xml:lang="pt-BR">Grupo classifica as primeiras notas divulgadas pelo gabinete do novo ministro, rebatendo governos como o da Venezuela e o da Bolívia, como "eleitoreiras" e "agressivas".</summary>
+      <link rel="alternate"
+            type="text/html"
+            href="http://www.bbc.com/portuguese/brasil/2016/05/160516_serra_itamaraty_fs"
+            title="story">
+         <media:content>
+            <media:thumbnail url="http://a.files.bbci.co.uk/worldservice/live/assets/images/2016/03/31/160331164652_jose_serra_144x81_agsenado_nocredit.jpg"
+                             width="144"
+                             height="81">
+               <img alt=""
+                    width="144"
+                    height="81"
+                    src="http://a.files.bbci.co.uk/worldservice/live/assets/images/2016/03/31/160331164652_jose_serra_144x81_agsenado_nocredit.jpg"/>
+            </media:thumbnail>
+         </media:content>
+      </link>
+      <link rel="related"
+            type="text/html"
+            href="http://www.bbc.com/portuguese/brasil/2016/05/160509_ministros_temer_if_rm"
+            title="story">
+         <dc:title>De ‘rei da soja’ a condenado por desvio de merenda: conheça os ministros de Temer</dc:title>
+         <media:content>
+            <media:thumbnail url="http://a.files.bbci.co.uk/worldservice/live/assets/images/2016/03/31/160331164652_jose_serra_144x81_agsenado_nocredit.jpg"
+                             width="144"
+                             height="81">
+               <img alt=""
+                    width="144"
+                    height="81"
+                    src="http://a.files.bbci.co.uk/worldservice/live/assets/images/2016/03/31/160331164652_jose_serra_144x81_agsenado_nocredit.jpg"/>
+            </media:thumbnail>
+         </media:content>
+      </link>
+   </entry>
+   <entry>
+      <id>tag:www.bbcbrasil.com,2016-05-09:/portuguese/brasil/2016/05/160516_entrevista_educacao_mozart_pai</id>
+      <dc:identifier>/portuguese/brasil/2016/05/160516_entrevista_educacao_mozart_pai</dc:identifier>
+      <updated>2016-05-16T15:12:08-03:00</updated>
+      <published>2016-05-09T11:46:41-03:00</published>
+      <category xml:lang="pt-BR" term="portuguese" label="portuguese"/>
+      <category xml:lang="pt-BR" term="brasil" label="Brasil"/>
+      <title xml:lang="pt-BR">Proposta do PMDB traz riscos ao orçamento da educação, diz especialista cotado para ministério</title>
+      <summary xml:lang="pt-BR">Diretor do Instituto Ayrton Senna afirma que crise atual já faz educação retroceder no país e que "Pátria Educadora" afundou em meio ao atual cenário econômico. </summary>
+      <link rel="alternate"
+            type="text/html"
+            href="http://www.bbc.com/portuguese/brasil/2016/05/160516_entrevista_educacao_mozart_pai"
+            title="story">
+         <media:content>
+            <media:thumbnail url="http://a.files.bbci.co.uk/worldservice/live/assets/images/2016/01/11/160111141407_escola_144x81_pedroribasanpr_nocredit.jpg"
+                             width="144"
+                             height="81">
+               <img alt="Foto de arquivo: Pedro Ribas/NPR"
+                    width="144"
+                    height="81"
+                    src="http://a.files.bbci.co.uk/worldservice/live/assets/images/2016/01/11/160111141407_escola_144x81_pedroribasanpr_nocredit.jpg"/>
+            </media:thumbnail>
+         </media:content>
+      </link>
+      <link rel="related"
+            type="text/html"
+            href="http://www.bbc.com/portuguese/brasil/2016/05/160513_coletiva_ministros_brasilia_rs"
+            title="story">
+         <dc:title>Governo anuncia corte de 4 mil cargos, mas não sabe quanto economizará</dc:title>
+         <media:content>
+            <media:thumbnail url="http://a.files.bbci.co.uk/worldservice/live/assets/images/2016/01/11/160111141407_escola_144x81_pedroribasanpr_nocredit.jpg"
+                             width="144"
+                             height="81">
+               <img alt="Foto de arquivo: Pedro Ribas/NPR"
+                    width="144"
+                    height="81"
+                    src="http://a.files.bbci.co.uk/worldservice/live/assets/images/2016/01/11/160111141407_escola_144x81_pedroribasanpr_nocredit.jpg"/>
+            </media:thumbnail>
+         </media:content>
+      </link>
+   </entry>
+   <entry>
+      <id>tag:www.bbcbrasil.com,2016-05-12:/portuguese/brasil/2016/05/160512_entrevista_ricardo_paes_de_barros_dg_rb</id>
+      <dc:identifier>/portuguese/brasil/2016/05/160512_entrevista_ricardo_paes_de_barros_dg_rb</dc:identifier>
+      <updated>2016-05-16T09:14:41-03:00</updated>
+      <published>2016-05-12T11:15:47-03:00</published>
+      <category xml:lang="pt-BR" term="portuguese" label="portuguese"/>
+      <category xml:lang="pt-BR" term="brasil" label="Brasil"/>
+      <title xml:lang="pt-BR">Governo deve gastar ainda mais em programas sociais em tempos de crise, diz economista que inspirou Temer</title>
+      <summary xml:lang="pt-BR">Ideias de Ricardo Paes de Barros foram usadas em documento do PMDB sobre programas sociais; economista é cotado para ajudar a reformular Bolsa Família.</summary>
+      <link rel="alternate"
+            type="text/html"
+            href="http://www.bbc.com/portuguese/brasil/2016/05/160512_entrevista_ricardo_paes_de_barros_dg_rb"
+            title="story">
+         <media:content>
+            <media:thumbnail url="http://a.files.bbci.co.uk/worldservice/live/assets/images/2016/05/12/160512143918_bolsa_familia_144x81_agenciasenado_nocredit.jpg"
+                             width="144"
+                             height="81">
+               <img alt="Agência Senado"
+                    width="144"
+                    height="81"
+                    src="http://a.files.bbci.co.uk/worldservice/live/assets/images/2016/05/12/160512143918_bolsa_familia_144x81_agenciasenado_nocredit.jpg"/>
+            </media:thumbnail>
+         </media:content>
+      </link>
+      <link rel="related"
+            type="text/html"
+            href="http://www.bbc.com/portuguese/brasil/2016/05/160512_repercussao_libano_ts_lgb"
+            title="story">
+         <dc:title>Libaneses parabenizam Temer e ironizam 'único libanês' no comando de uma nação</dc:title>
+         <media:content>
+            <media:thumbnail url="http://a.files.bbci.co.uk/worldservice/live/assets/images/2016/05/12/160512143918_bolsa_familia_144x81_agenciasenado_nocredit.jpg"
+                             width="144"
+                             height="81">
+               <img alt="Agência Senado"
+                    width="144"
+                    height="81"
+                    src="http://a.files.bbci.co.uk/worldservice/live/assets/images/2016/05/12/160512143918_bolsa_familia_144x81_agenciasenado_nocredit.jpg"/>
+            </media:thumbnail>
+         </media:content>
+      </link>
+   </entry>
+   <entry>
+      <id>tag:www.bbcbrasil.com,2016-05-15:/portuguese/brasil/2016/05/160512_polemica_temer_lgb</id>
+      <dc:identifier>/portuguese/brasil/2016/05/160512_polemica_temer_lgb</dc:identifier>
+      <updated>2016-05-15T18:05:00-03:00</updated>
+      <published>2016-05-15T14:51:01-03:00</published>
+      <category xml:lang="pt-BR" term="portuguese" label="portuguese"/>
+      <category xml:lang="pt-BR" term="brasil" label="Brasil"/>
+      <title xml:lang="pt-BR">Quatro polêmicas que marcaram os primeiros dias do governo Temer</title>
+      <summary xml:lang="pt-BR">Presidente interino virou alvo de críticas por nomear ministério de "homens brancos" e aliados ligados à Lava Jato; entenda.</summary>
+      <link rel="alternate"
+            type="text/html"
+            href="http://www.bbc.com/portuguese/brasil/2016/05/160512_polemica_temer_lgb"
+            title="story">
+         <media:content>
+            <media:thumbnail url="http://a.files.bbci.co.uk/worldservice/live/assets/images/2016/05/13/160513033903_michel_temer_inauguration_144x81_epa_nocredit.jpg"
+                             width="144"
+                             height="81">
+               <img alt="(EPA)"
+                    width="144"
+                    height="81"
+                    src="http://a.files.bbci.co.uk/worldservice/live/assets/images/2016/05/13/160513033903_michel_temer_inauguration_144x81_epa_nocredit.jpg"/>
+            </media:thumbnail>
+         </media:content>
+      </link>
+      <link rel="related"
+            type="text/html"
+            href="http://www.bbc.com/portuguese/brasil/2016/05/160513_coletiva_ministros_brasilia_rs"
+            title="story">
+         <dc:title>Governo anuncia corte de 4 mil cargos, mas não sabe quanto economizará</dc:title>
+         <media:content>
+            <media:thumbnail url="http://a.files.bbci.co.uk/worldservice/live/assets/images/2016/05/13/160513033903_michel_temer_inauguration_144x81_epa_nocredit.jpg"
+                             width="144"
+                             height="81">
+               <img alt="(EPA)"
+                    width="144"
+                    height="81"
+                    src="http://a.files.bbci.co.uk/worldservice/live/assets/images/2016/05/13/160513033903_michel_temer_inauguration_144x81_epa_nocredit.jpg"/>
+            </media:thumbnail>
+         </media:content>
+      </link>
+      <link rel="related"
+            type="text/html"
+            href="http://www.bbc.com/portuguese/brasil/2016/05/160509_ministros_temer_if_rm"
+            title="story">
+         <dc:title>De ‘rei da soja’ a condenado por desvio de merenda: conheça os ministros de Temer</dc:title>
+         <media:content>
+            <media:thumbnail url="http://a.files.bbci.co.uk/worldservice/live/assets/images/2016/05/13/160513033903_michel_temer_inauguration_144x81_epa_nocredit.jpg"
+                             width="144"
+                             height="81">
+               <img alt="(EPA)"
+                    width="144"
+                    height="81"
+                    src="http://a.files.bbci.co.uk/worldservice/live/assets/images/2016/05/13/160513033903_michel_temer_inauguration_144x81_epa_nocredit.jpg"/>
+            </media:thumbnail>
+         </media:content>
+      </link>
+   </entry>
+   <entry>
+      <id>tag:www.bbcbrasil.com,2016-05-12:/portuguese/brasil/2016/05/160512_entrevista_otaviano_canuto_jf</id>
+      <dc:identifier>/portuguese/brasil/2016/05/160512_entrevista_otaviano_canuto_jf</dc:identifier>
+      <updated>2016-05-15T07:59:08-03:00</updated>
+      <published>2016-05-12T22:00:01-03:00</published>
+      <category xml:lang="pt-BR" term="portuguese" label="portuguese"/>
+      <category xml:lang="pt-BR" term="brasil" label="Brasil"/>
+      <title xml:lang="pt-BR">Há margem enorme para taxação de ricos no Brasil, diz diretor do FMI</title>
+      <summary xml:lang="pt-BR">Para Otaviano Canuto, ascensão política dos mais pobres cria condições para aprovação das medidas.</summary>
+      <link rel="alternate"
+            type="text/html"
+            href="http://www.bbc.com/portuguese/brasil/2016/05/160512_entrevista_otaviano_canuto_jf"
+            title="story">
+         <media:content>
+            <media:thumbnail url="http://a.files.bbci.co.uk/worldservice/live/assets/images/2016/05/13/160513011402_sp_otaviano_canuto_144x81_fmi_nocredit.jpg"
+                             width="144"
+                             height="81">
+               <img alt="Foto: FMI"
+                    width="144"
+                    height="81"
+                    src="http://a.files.bbci.co.uk/worldservice/live/assets/images/2016/05/13/160513011402_sp_otaviano_canuto_144x81_fmi_nocredit.jpg"/>
+            </media:thumbnail>
+         </media:content>
+      </link>
+      <link rel="related"
+            type="text/html"
+            href="http://www.bbc.com/portuguese/brasil/2016/05/160513_temer_imprensa_internacional_repercute_fd"
+            title="story">
+         <dc:title>Machismo e rancor da direita pesaram em queda de Dilma, diz jornal britânico </dc:title>
+         <media:content>
+            <media:thumbnail url="http://a.files.bbci.co.uk/worldservice/live/assets/images/2016/05/13/160513011402_sp_otaviano_canuto_144x81_fmi_nocredit.jpg"
+                             width="144"
+                             height="81">
+               <img alt="Foto: FMI"
+                    width="144"
+                    height="81"
+                    src="http://a.files.bbci.co.uk/worldservice/live/assets/images/2016/05/13/160513011402_sp_otaviano_canuto_144x81_fmi_nocredit.jpg"/>
+            </media:thumbnail>
+         </media:content>
+      </link>
+   </entry>
+   <entry>
+      <id>tag:www.bbcbrasil.com,2016-05-09:/portuguese/geral/2016/05/160509_sapo_amazonia_remedio_mv</id>
+      <dc:identifier>/portuguese/geral/2016/05/160509_sapo_amazonia_remedio_mv</dc:identifier>
+      <updated>2016-05-14T18:25:32-03:00</updated>
+      <published>2016-05-09T14:00:57-03:00</published>
+      <category xml:lang="pt-BR" term="portuguese" label="portuguese"/>
+      <category xml:lang="pt-BR" term="geral" label="Geral"/>
+      <title xml:lang="pt-BR">O veneno de rã que é usado como remédio na Amazônia</title>
+      <summary xml:lang="pt-BR">Substância retirada de rã amazônica e utilizada por povos indígenas está ganhando popularidade internacionalmente.</summary>
+      <link rel="alternate"
+            type="text/html"
+            href="http://www.bbc.com/portuguese/geral/2016/05/160509_sapo_amazonia_remedio_mv"
+            title="story">
+         <media:content>
+            <media:thumbnail url="http://a.files.bbci.co.uk/worldservice/live/assets/images/2016/04/27/160427112609_kambo_veneno_rana_amazonica_medicina_salud_144x81_medicinakambo_nocredit.jpg"
+                             width="144"
+                             height="81">
+               <img alt="Foto: Medicina Kambô"
+                    width="144"
+                    height="81"
+                    src="http://a.files.bbci.co.uk/worldservice/live/assets/images/2016/04/27/160427112609_kambo_veneno_rana_amazonica_medicina_salud_144x81_medicinakambo_nocredit.jpg"/>
+            </media:thumbnail>
+         </media:content>
+      </link>
+   </entry>
+   <entry>
+      <id>tag:www.bbcbrasil.com,2016-05-13:/portuguese/brasil/2016/05/160513_entrevista_professora_canada_jf_cc</id>
+      <dc:identifier>/portuguese/brasil/2016/05/160513_entrevista_professora_canada_jf_cc</dc:identifier>
+      <updated>2016-05-14T15:44:24-03:00</updated>
+      <published>2016-05-13T19:54:21-03:00</published>
+      <category xml:lang="pt-BR" term="portuguese" label="portuguese"/>
+      <category xml:lang="pt-BR" term="brasil" label="Brasil"/>
+      <title xml:lang="pt-BR">Nomear só homens brancos indica que 'sistema não é baseado em mérito', diz canadense</title>
+      <summary xml:lang="pt-BR">Para especialista em diversidade no ambiente de trabalho, equipes misturadas tendem a produzir melhores resultados em governos e empresas.</summary>
+      <link rel="alternate"
+            type="text/html"
+            href="http://www.bbc.com/portuguese/brasil/2016/05/160513_entrevista_professora_canada_jf_cc"
+            title="story">
+         <media:content>
+            <media:thumbnail url="http://a.files.bbci.co.uk/worldservice/live/assets/images/2016/05/14/160514001313_sp_temer_ministros_144x81_afp_nocredit.jpg"
+                             width="144"
+                             height="81">
+               <img alt="Foto: AFP"
+                    width="144"
+                    height="81"
+                    src="http://a.files.bbci.co.uk/worldservice/live/assets/images/2016/05/14/160514001313_sp_temer_ministros_144x81_afp_nocredit.jpg"/>
+            </media:thumbnail>
+         </media:content>
+      </link>
+      <link rel="related"
+            type="text/html"
+            href="http://www.bbc.com/portuguese/brasil/2016/05/160513_coletiva_ministros_brasilia_rs"
+            title="story">
+         <dc:title>Governo anuncia corte de 4 mil cargos, mas não sabe quanto economizará</dc:title>
+         <media:content>
+            <media:thumbnail url="http://a.files.bbci.co.uk/worldservice/live/assets/images/2016/05/14/160514001313_sp_temer_ministros_144x81_afp_nocredit.jpg"
+                             width="144"
+                             height="81">
+               <img alt="Foto: AFP"
+                    width="144"
+                    height="81"
+                    src="http://a.files.bbci.co.uk/worldservice/live/assets/images/2016/05/14/160514001313_sp_temer_ministros_144x81_afp_nocredit.jpg"/>
+            </media:thumbnail>
+         </media:content>
+      </link>
+   </entry>
+   <entry>
+      <id>tag:www.bbcbrasil.com,2016-05-13:/portuguese/brasil/2016/05/160513_dilma_coletiva_ru_ms</id>
+      <dc:identifier>/portuguese/brasil/2016/05/160513_dilma_coletiva_ru_ms</dc:identifier>
+      <updated>2016-05-13T17:41:00-03:00</updated>
+      <published>2016-05-13T13:25:06-03:00</published>
+      <category xml:lang="pt-BR" term="portuguese" label="portuguese"/>
+      <category xml:lang="pt-BR" term="brasil" label="Brasil"/>
+      <title xml:lang="pt-BR">'Sofri toda sorte de sabotagem', diz Dilma à imprensa estrangeira</title>
+      <summary xml:lang="pt-BR">Em ofensiva contra impeachment, presidente afastada afirma que 'todas as saídas propostas contra a crise foram ou invalidadas ou bloqueadas' por opositores durante seu governo.</summary>
+      <link rel="alternate"
+            type="text/html"
+            href="http://www.bbc.com/portuguese/brasil/2016/05/160513_dilma_coletiva_ru_ms"
+            title="story">
+         <media:content>
+            <media:thumbnail url="http://a.files.bbci.co.uk/worldservice/live/assets/images/2016/05/13/160513212240_sp_dilma_rousseff_144x81_ap_nocredit.jpg"
+                             width="144"
+                             height="81">
+               <img alt="Foto: AP"
+                    width="144"
+                    height="81"
+                    src="http://a.files.bbci.co.uk/worldservice/live/assets/images/2016/05/13/160513212240_sp_dilma_rousseff_144x81_ap_nocredit.jpg"/>
+            </media:thumbnail>
+         </media:content>
+      </link>
+      <link rel="related"
+            type="text/html"
+            href="http://www.bbc.com/portuguese/brasil/2016/05/160511_aliados_temer_ms_cc"
+            title="story">
+         <dc:title>Todos os homens (e nenhuma mulher) do presidente interino</dc:title>
+         <media:content>
+            <media:thumbnail url="http://a.files.bbci.co.uk/worldservice/live/assets/images/2016/05/13/160513212240_sp_dilma_rousseff_144x81_ap_nocredit.jpg"
+                             width="144"
+                             height="81">
+               <img alt="Foto: AP"
+                    width="144"
+                    height="81"
+                    src="http://a.files.bbci.co.uk/worldservice/live/assets/images/2016/05/13/160513212240_sp_dilma_rousseff_144x81_ap_nocredit.jpg"/>
+            </media:thumbnail>
+         </media:content>
+      </link>
+      <link rel="related"
+            type="text/html"
+            href="http://www.bbc.com/portuguese/noticias/2016/05/160512_perrella_helicoptero_impeachment_rs_ss"
+            title="story">
+         <dc:title>'Temer terá que ter relação muito boa com Senado; se perder 3 votos, a Dilma volta', diz Perrella</dc:title>
+         <media:content>
+            <media:thumbnail url="http://a.files.bbci.co.uk/worldservice/live/assets/images/2016/05/13/160513212240_sp_dilma_rousseff_144x81_ap_nocredit.jpg"
+                             width="144"
+                             height="81">
+               <img alt="Foto: AP"
+                    width="144"
+                    height="81"
+                    src="http://a.files.bbci.co.uk/worldservice/live/assets/images/2016/05/13/160513212240_sp_dilma_rousseff_144x81_ap_nocredit.jpg"/>
+            </media:thumbnail>
+         </media:content>
+      </link>
+   </entry>
+   <entry>
+      <id>tag:www.bbcbrasil.com,2016-05-13:/portuguese/brasil/2016/05/160513_coletiva_ministros_brasilia_rs</id>
+      <dc:identifier>/portuguese/brasil/2016/05/160513_coletiva_ministros_brasilia_rs</dc:identifier>
+      <updated>2016-05-13T14:52:01-03:00</updated>
+      <published>2016-05-13T13:48:37-03:00</published>
+      <category xml:lang="pt-BR" term="portuguese" label="portuguese"/>
+      <category xml:lang="pt-BR" term="brasil" label="Brasil"/>
+      <title xml:lang="pt-BR">Governo anuncia corte de 4 mil cargos, mas não sabe quanto economizará</title>
+      <summary xml:lang="pt-BR">Novo ministro do Planejamento, Romero Jucá, diz que existem diferentes tipos de servidores, cada qual com salários e contratos de trabalho distintos.</summary>
+      <link rel="alternate"
+            type="text/html"
+            href="http://www.bbc.com/portuguese/brasil/2016/05/160513_coletiva_ministros_brasilia_rs"
+            title="story">
+         <media:content>
+            <media:thumbnail url="http://a.files.bbci.co.uk/worldservice/live/assets/images/2016/05/13/160513165719_juca_padilha_144_144x81__nocredit.jpg"
+                             width="144"
+                             height="81">
+               <img alt="AFP"
+                    width="144"
+                    height="81"
+                    src="http://a.files.bbci.co.uk/worldservice/live/assets/images/2016/05/13/160513165719_juca_padilha_144_144x81__nocredit.jpg"/>
+            </media:thumbnail>
+         </media:content>
+      </link>
+   </entry>
+   <entry>
+      <id>tag:www.bbcbrasil.com,2016-05-10:/portuguese/brasil/2016/05/160510_vickery_estadio_upton_pai</id>
+      <dc:identifier>/portuguese/brasil/2016/05/160510_vickery_estadio_upton_pai</dc:identifier>
+      <updated>2016-05-13T14:20:27-03:00</updated>
+      <published>2016-05-10T12:51:18-03:00</published>
+      <category xml:lang="pt-BR" term="portuguese" label="portuguese"/>
+      <category xml:lang="pt-BR" term="brasil" label="Brasil"/>
+      <title xml:lang="pt-BR">Tim Vickery: O estádio que vai deixar saudades em Londres - e o que ele conta sobre a imigração na cidade</title>
+      <summary xml:lang="pt-BR">Colunista da BBC Brasil comenta a mudança do West Ham do tradicional Upton Park para o estádio olímpico, em meio ao dinamismo migratório do leste londrino e à eleição de um prefeito descendente de paquistaneses.</summary>
+      <link rel="alternate"
+            type="text/html"
+            href="http://www.bbc.com/portuguese/brasil/2016/05/160510_vickery_estadio_upton_pai"
+            title="story">
+         <media:content>
+            <media:thumbnail url="http://a.files.bbci.co.uk/worldservice/live/assets/images/2015/10/30/151030171034_sp_tim_vickery_1_144x81_eduardomartino_nocredit.jpg"
+                             width="144"
+                             height="81">
+               <img alt=""
+                    width="144"
+                    height="81"
+                    src="http://a.files.bbci.co.uk/worldservice/live/assets/images/2015/10/30/151030171034_sp_tim_vickery_1_144x81_eduardomartino_nocredit.jpg"/>
+            </media:thumbnail>
+         </media:content>
+      </link>
+   </entry>
+   <entry>
+      <id>tag:www.bbcbrasil.com,2016-05-11:/portuguese/brasil/2016/05/160511_futuro_mbl_vemprarua_fs</id>
+      <dc:identifier>/portuguese/brasil/2016/05/160511_futuro_mbl_vemprarua_fs</dc:identifier>
+      <updated>2016-05-13T13:45:39-03:00</updated>
+      <published>2016-05-11T20:42:14-03:00</published>
+      <category xml:lang="pt-BR" term="portuguese" label="portuguese"/>
+      <category xml:lang="pt-BR" term="brasil" label="Brasil"/>
+      <title xml:lang="pt-BR">Após impeachment, MBL lançará nomes na política e promete atos contra ministros investigados na Lava Jato</title>
+      <summary xml:lang="pt-BR">Movimentos que promoveram protestos pelo impeachment da presidente petista agora planejam estratégias futuras.</summary>
+      <link rel="alternate"
+            type="text/html"
+            href="http://www.bbc.com/portuguese/brasil/2016/05/160511_futuro_mbl_vemprarua_fs"
+            title="story">
+         <media:content>
+            <media:thumbnail url="http://a.files.bbci.co.uk/worldservice/live/assets/images/2016/05/05/160505211816_kataguiri_144x81_bbc_nocredit.jpg"
+                             width="144"
+                             height="81">
+               <img alt=""
+                    width="144"
+                    height="81"
+                    src="http://a.files.bbci.co.uk/worldservice/live/assets/images/2016/05/05/160505211816_kataguiri_144x81_bbc_nocredit.jpg"/>
+            </media:thumbnail>
+         </media:content>
+      </link>
+   </entry>
+   <entry>
+      <id>tag:www.bbcbrasil.com,2016-05-12:/portuguese/brasil/2016/05/160512_h1n1_coracao_pulmao_fp_cc</id>
+      <dc:identifier>/portuguese/brasil/2016/05/160512_h1n1_coracao_pulmao_fp_cc</dc:identifier>
+      <updated>2016-05-13T10:44:52-03:00</updated>
+      <published>2016-05-12T20:36:52-03:00</published>
+      <category xml:lang="pt-BR" term="portuguese" label="portuguese"/>
+      <category xml:lang="pt-BR" term="brasil" label="Brasil"/>
+      <title xml:lang="pt-BR">Coração e pulmão artificiais salvam vidas de gestante com gripe H1N1 e seu bebê</title>
+      <summary xml:lang="pt-BR">Técnica foi utilizada pela primeira vez na América do Sul evitando a interrupção da gravidez.</summary>
+      <link rel="alternate"
+            type="text/html"
+            href="http://www.bbc.com/portuguese/brasil/2016/05/160512_h1n1_coracao_pulmao_fp_cc"
+            title="story">
+         <media:content>
+            <media:thumbnail url="http://a.files.bbci.co.uk/worldservice/live/assets/images/2016/05/12/160512235323_sp_isabella_vieira_144x81_alessandromendes_nocredit.jpg"
+                             width="144"
+                             height="81">
+               <img alt="Foto: Alessandro Mendes"
+                    width="144"
+                    height="81"
+                    src="http://a.files.bbci.co.uk/worldservice/live/assets/images/2016/05/12/160512235323_sp_isabella_vieira_144x81_alessandromendes_nocredit.jpg"/>
+            </media:thumbnail>
+         </media:content>
+      </link>
+      <link rel="related"
+            type="text/html"
+            href="http://www.bbc.com/portuguese/brasil/2016/05/160506_oms_gravidas_zika_rio_mw"
+            title="story">
+         <dc:title>Grávidas devem evitar Rio de Janeiro, diz OMS</dc:title>
+         <media:content>
+            <media:thumbnail url="http://a.files.bbci.co.uk/worldservice/live/assets/images/2016/05/12/160512235323_sp_isabella_vieira_144x81_alessandromendes_nocredit.jpg"
+                             width="144"
+                             height="81">
+               <img alt="Foto: Alessandro Mendes"
+                    width="144"
+                    height="81"
+                    src="http://a.files.bbci.co.uk/worldservice/live/assets/images/2016/05/12/160512235323_sp_isabella_vieira_144x81_alessandromendes_nocredit.jpg"/>
+            </media:thumbnail>
+         </media:content>
+      </link>
+   </entry>
+   <entry>
+      <id>tag:www.bbcbrasil.com,2016-05-13:/portuguese/brasil/2016/05/160513_temer_imprensa_internacional_repercute_fd</id>
+      <dc:identifier>/portuguese/brasil/2016/05/160513_temer_imprensa_internacional_repercute_fd</dc:identifier>
+      <updated>2016-05-13T10:31:29-03:00</updated>
+      <published>2016-05-13T05:15:37-03:00</published>
+      <category xml:lang="pt-BR" term="portuguese" label="portuguese"/>
+      <category xml:lang="pt-BR" term="brasil" label="Brasil"/>
+      <title xml:lang="pt-BR">Machismo e rancor da direita pesaram em queda de Dilma, diz jornal britânico </title>
+      <summary xml:lang="pt-BR">Repercussão da mídia internacional sobre aval do Senado a processo de impeachment também destaca desafios de Temer, embora mostre esperança de estabilização política e econômica.</summary>
+      <link rel="alternate"
+            type="text/html"
+            href="http://www.bbc.com/portuguese/brasil/2016/05/160513_temer_imprensa_internacional_repercute_fd"
+            title="story">
+         <media:content>
+            <media:thumbnail url="http://a.files.bbci.co.uk/worldservice/live/assets/images/2016/05/11/160511120712_dilma_rousseff_michel_temer_faixa_presidencial_144x81_aprobertostuckertfilho_nocredit.jpg"
+                             width="144"
+                             height="81">
+               <img alt=""
+                    width="144"
+                    height="81"
+                    src="http://a.files.bbci.co.uk/worldservice/live/assets/images/2016/05/11/160511120712_dilma_rousseff_michel_temer_faixa_presidencial_144x81_aprobertostuckertfilho_nocredit.jpg"/>
+            </media:thumbnail>
+         </media:content>
+      </link>
+   </entry>
+   <entry>
+      <id>tag:www.bbcbrasil.com,2016-05-12:/portuguese/brasil/2016/05/160509_ministros_temer_if_rm</id>
+      <dc:identifier>/portuguese/brasil/2016/05/160509_ministros_temer_if_rm</dc:identifier>
+      <updated>2016-05-13T09:45:27-03:00</updated>
+      <published>2016-05-12T16:25:29-03:00</published>
+      <category xml:lang="pt-BR" term="portuguese" label="portuguese"/>
+      <category xml:lang="pt-BR" term="brasil" label="Brasil"/>
+      <title xml:lang="pt-BR">De ‘rei da soja’ a condenado por desvio de merenda: conheça os ministros de Temer</title>
+      <summary xml:lang="pt-BR">Entre os 23 membros do gabinete de presidente interino, sete deles são investigados pela Justiça ou em tribunais de conta; um deles foi condenado e apelou da decisão.</summary>
+      <link rel="alternate"
+            type="text/html"
+            href="http://www.bbc.com/portuguese/brasil/2016/05/160509_ministros_temer_if_rm"
+            title="story">
+         <media:content>
+            <media:thumbnail url="http://a.files.bbci.co.uk/worldservice/live/assets/images/2016/05/13/160513084425_temer_ministers_144x81_getty_nocredit.jpg"
+                             width="144"
+                             height="81">
+               <img alt="Foto Getty"
+                    width="144"
+                    height="81"
+                    src="http://a.files.bbci.co.uk/worldservice/live/assets/images/2016/05/13/160513084425_temer_ministers_144x81_getty_nocredit.jpg"/>
+            </media:thumbnail>
+         </media:content>
+      </link>
+      <link rel="related"
+            type="text/html"
+            href="http://www.bbc.com/portuguese/brasil/2016/05/160511_aliados_temer_ms_cc"
+            title="story">
+         <dc:title>Todos os homens (e nenhuma mulher) do presidente interino</dc:title>
+         <media:content>
+            <media:thumbnail url="http://a.files.bbci.co.uk/worldservice/live/assets/images/2016/05/13/160513084425_temer_ministers_144x81_getty_nocredit.jpg"
+                             width="144"
+                             height="81">
+               <img alt="Foto Getty"
+                    width="144"
+                    height="81"
+                    src="http://a.files.bbci.co.uk/worldservice/live/assets/images/2016/05/13/160513084425_temer_ministers_144x81_getty_nocredit.jpg"/>
+            </media:thumbnail>
+         </media:content>
+      </link>
+   </entry>
+   <entry>
+      <id>tag:www.bbcbrasil.com,2016-05-11:/portuguese/brasil/2016/05/160512_ascensao_pmdb_ab</id>
+      <dc:identifier>/portuguese/brasil/2016/05/160512_ascensao_pmdb_ab</dc:identifier>
+      <updated>2016-05-13T08:29:54-03:00</updated>
+      <published>2016-05-11T17:41:48-03:00</published>
+      <category xml:lang="pt-BR" term="portuguese" label="portuguese"/>
+      <category xml:lang="pt-BR" term="brasil" label="Brasil"/>
+      <title xml:lang="pt-BR">Como o PMDB virou o partido mais poderoso do país</title>
+      <summary xml:lang="pt-BR">Além da Presidência da República, legenda tem as maiores bancadas da Câmara e do Senado e lidera em número de prefeituras e governos estaduais.</summary>
+      <link rel="alternate"
+            type="text/html"
+            href="http://www.bbc.com/portuguese/brasil/2016/05/160512_ascensao_pmdb_ab"
+            title="story">
+         <media:content>
+            <media:thumbnail url="http://a.files.bbci.co.uk/worldservice/live/assets/images/2016/05/12/160512032004_foto_pmsb_convencao_144x81_pmdb_nocredit.jpg"
+                             width="144"
+                             height="81">
+               <img alt="(Foto: PMDB)"
+                    width="144"
+                    height="81"
+                    src="http://a.files.bbci.co.uk/worldservice/live/assets/images/2016/05/12/160512032004_foto_pmsb_convencao_144x81_pmdb_nocredit.jpg"/>
+            </media:thumbnail>
+         </media:content>
+      </link>
+      <link rel="related"
+            type="text/html"
+            href="http://www.bbc.com/portuguese/brasil/2016/05/160510_novo_governo_pai"
+            title="story">
+         <dc:title>'É urgente fazer governo de salvação nacional', afirma Temer ao empossar ministros</dc:title>
+         <media:content>
+            <media:thumbnail url="http://a.files.bbci.co.uk/worldservice/live/assets/images/2016/05/12/160512032004_foto_pmsb_convencao_144x81_pmdb_nocredit.jpg"
+                             width="144"
+                             height="81">
+               <img alt="(Foto: PMDB)"
+                    width="144"
+                    height="81"
+                    src="http://a.files.bbci.co.uk/worldservice/live/assets/images/2016/05/12/160512032004_foto_pmsb_convencao_144x81_pmdb_nocredit.jpg"/>
+            </media:thumbnail>
+         </media:content>
+      </link>
+   </entry>
+   <entry>
+      <id>tag:www.bbcbrasil.com,2016-05-12:/portuguese/videos_e_fotos/2016/05/160512_troca_dilma_lk</id>
+      <dc:identifier>/portuguese/videos_e_fotos/2016/05/160512_troca_dilma_lk</dc:identifier>
+      <updated>2016-05-12T20:52:43-03:00</updated>
+      <published>2016-05-12T20:14:55-03:00</published>
+      <category xml:lang="pt-BR" term="portuguese" label="portuguese"/>
+      <category xml:lang="pt-BR" term="multimedia" label="Vídeos e Fotos"/>
+      <title xml:lang="pt-BR">De Dilma a Temer: as cenas da troca de poder que marca a história do país</title>
+      <summary xml:lang="pt-BR">Confira as principais imagens do dia em que a presidente foi afastada pelo Senado, dando lugar ao vice.</summary>
+      <link rel="alternate"
+            type="text/html"
+            href="http://www.bbc.com/portuguese/videos_e_fotos/2016/05/160512_troca_dilma_lk"
+            title="video">
+         <media:content>
+            <media:thumbnail url="http://a.files.bbci.co.uk/worldservice/live/assets/images/2016/05/12/160512230227_dilma_ousted_144x81_bbc_nocredit.jpg"
+                             width="144"
+                             height="81">
+               <img alt=""
+                    width="144"
+                    height="81"
+                    src="http://a.files.bbci.co.uk/worldservice/live/assets/images/2016/05/12/160512230227_dilma_ousted_144x81_bbc_nocredit.jpg"/>
+            </media:thumbnail>
+         </media:content>
+      </link>
+   </entry>
+</feed>
