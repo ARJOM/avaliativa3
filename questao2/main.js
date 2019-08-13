@@ -20,7 +20,7 @@ function carregaXMLRemotoNoticias(){
       link = $(this).find('link')[0].getAttribute("href");
       externo = "<a href=\""+link+"\">Veja mais.</a>";
       imagem = "<img src="+img+" />";
-      dadosLista += "<div> <h3>"+titulo+"</h3><h6>Publicado em:"+datapub+"</h6><p>"+descricao+""+externo+"</p>"+imagem+"</div>";
+      dadosLista += "<div> <h3>"+titulo+"</h3><h6>Publicado em: "+datapub+"</h6><p>"+descricao+""+externo+"</p>"+imagem+"</div>";
     });
     document.getElementById("noticias").innerHTML = dadosLista;
   });
