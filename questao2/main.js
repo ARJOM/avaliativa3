@@ -16,7 +16,9 @@ function carregaXMLRemotoNoticias(){
       titulo = $(this).find('title').text();
       descricao = $(this).find('summary').text();
       datapub = $(this).find('published').text();
-      dadosLista += "<div> <h3>"+titulo+"</h3><h6>Publicado em:"+datapub+"</h6><p>"+descricao+"</p> </div>";
+      img = $(this).find('img')[0].getAttribute("src");
+      imagem = "<img src="+img+" />";
+      dadosLista += "<div> <h3>"+titulo+"</h3><h6>Publicado em:"+datapub+"</h6><p>"+descricao+"</p>"+imagem+"</div>";
     });
     document.getElementById("noticias").innerHTML = dadosLista;
   });
